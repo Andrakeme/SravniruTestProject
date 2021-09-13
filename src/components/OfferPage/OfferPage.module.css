@@ -1,0 +1,90 @@
+.pageWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 20px;
+}
+
+.item {
+    border: 1px solid rgb(170, 170, 170);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    width: 60%;
+    justify-self: center;
+    gap: 10px;
+}
+
+.logo {
+    justify-self: center;
+}
+
+.logo img {
+    max-width: 100%;
+    min-width: 50px;
+}
+
+.rateWrapper {
+    text-align: center;
+}
+
+.rateWrapper :first-child {
+    font-weight: bold;
+}
+
+.rateWrapper div:first-child {
+    font-size: 18px;
+}
+
+.rate {
+    font-size: 24px;
+}
+
+.amount {
+    text-align: center;
+}
+
+.amount span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.requirements {
+    text-align: left;
+    line-height: 25px;
+}
+
+.requirements div {
+    text-align: center;
+}
+
+.license {
+    line-height: 25px;
+    font-size: 12px;
+    justify-self: normal;
+    grid-row-start: 2;
+    border-bottom: 1px solid grey;
+}
+
+.license span {
+    color: grey;
+}
+
+.button {
+    background-color: rgb(43, 216, 43);
+    border-radius: 10px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    width: 60%;
+    border: 1px solid green;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

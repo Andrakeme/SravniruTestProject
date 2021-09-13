@@ -1,0 +1,68 @@
+.item {
+    border: 1px solid rgb(170, 170, 170);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    height: 120px;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    min-width: 50px;
+}
+
+.rateWrapper {
+    text-align: left;
+}
+
+.rateWrapper :first-child {
+    font-weight: bold;
+}
+
+.rateWrapper div:first-child {
+    font-size: 18px;
+}
+
+.rate {
+    font-size: 24px;
+}
+
+.amount {
+    text-align: left;
+}
+
+.amount span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.requirements {
+    text-align: left;
+    line-height: 25px;
+}
+
+.license {
+    line-height: 25px;
+}
+
+.license span {
+    color: grey;
+}
+
+.button {
+    background-color: rgb(43, 216, 43);
+    border-radius: 10px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
